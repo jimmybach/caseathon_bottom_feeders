@@ -1,2 +1,46 @@
-# caseathon_bottom_feeders
-Bottom Feeders Marine Science Submission
+# Team Bottom Feeders
+## Marine Science Case-a-thon Submission
+Chris Tillotson, Jimmy Bach, & Whitley Ford
+
+# Image Classification
+> ## Objective
+>
+> 
+> ## Approach
+>
+> 
+> ## Prompts & Outputs
+>
+> 
+> ## Code
+>
+> 
+> ## Results
+>
+> 
+
+# Object Detection
+> ## Objective
+>
+> 
+> ## Approach
+>
+> 
+> ## Prompts & Outputs
+>
+> 
+> ## Code
+>
+> 
+> ## Results
+
+# Applications
+> ## Efficiency
+>
+> 
+> ## Ecosystem Monitoring
+>
+> 
+> ## Change Over Time Assessment
+>
+> 
