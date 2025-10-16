@@ -3,10 +3,7 @@
 Chris Tillotson, Jimmy Bach, & Whitley Ford
 
 # Image Classification
-> ## Objective
->
-> 
-> ## Approach
+> ## Objective & Approach
 >
 > 
 > ## Prompts & Outputs
@@ -20,10 +17,7 @@ Chris Tillotson, Jimmy Bach, & Whitley Ford
 > 
 
 # Object Detection
-> ## Objective
->
-> 
-> ## Approach
+> ## Objective & Approach
 >
 > 
 > ## Prompts & Outputs
