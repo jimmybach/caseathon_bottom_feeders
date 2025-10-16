@@ -5,13 +5,13 @@ Chris Tillotson, Jimmy Bach, & Whitley Ford
 # Image Classification
 > ## Objective & Approach
 >
-> 
 > ## Prompts & Outputs
 >
 > 
 > ## Code
+>```python
 >
-> 
+>```
 > ## Results
 >
 > 
@@ -24,8 +24,9 @@ Chris Tillotson, Jimmy Bach, & Whitley Ford
 >
 > 
 > ## Code
+>```python
 >
-> 
+>```
 > ## Results
 
 # Applications
