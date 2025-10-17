@@ -10,6 +10,8 @@ author_profile: false
   <h3 style="text-align: center;">Jimmy Bach, Chris Tillotson, Whitley Ford</h3>
 </header>
 
+        <p> Our goal was to train an AI model to locate and identify benthis marine organisms within images. We used pre-trained models from <a href="https://docs.ultralytics.com/">Ultralytics</a>. First, we trained the model for 100 epochs, using the data provided for the case competition. Then, we ran the function, model.tune, to improve accuracy and the base kinetic algorithms to tune model parameters.  
+</p>
 <header>
   <h2>Image Classification</h2>
       <h3>Process</h3>
@@ -306,12 +308,10 @@ show_predictions(images, labels, preds, idx_to_label)
 
 <header>
       <h3>Results</h3>
+      <p>We achieved a test accuracy of approximately 84%</p>
       <img src="jimmyplot.png" alt="classification results">
 
   <h2>Object Identification</h2>
-      <h3>Process</h3>
-        <p> Our goal was to train an AI model to locate and identify marine organisms within images. We used a pre-trained model from <a href="https://docs.ultralytics.com/">Ultralytics</a>. First, we trained the model for 100 epochs, using the data provided for the case competition. Then, we ran the function, model.tune, to improve accuracy and the base kinetic algorithms to tune model parameters.  
-</p>
       <h3>AI Use</h3>
         <p>We used ChatGPT to aid in writing code. Here is a link to the conversation <a href="...">transcript</a>
 . </p>
@@ -349,9 +349,11 @@ model
   <h2>AI and Machine Learning in Marine Science</h2>
   <p>
     
-    Iterations of image annotation models, like <a href=https://coralnet.ucsd.edu/about/#story>CoralNet,</a> which was developed at UCSD, have been in use in the field of marine science for almost 20 years. CoralNet improves efficiency of research by automatedly annotating images of both living and bleached coral. It is open source and continually gathers new data through citizen science. 
+    Iterations of image annotation models, like <a href=https://coralnet.ucsd.edu/about/#story>CoralNet,</a> which was developed at UCSD, have been in use in the field of marine science for almost 20 years. CoralNet improves efficiency of research by automating annotation of images of both living and bleached coral. It is open source and continually gathers new data through citizen science. 
   
-    
+    Modern AI models can outperform humans in speed and accuracy. Experts are better used interpreting results, rather than poring over copious amounts of data. In a study focused on fish abundance in Australia, deep learning was used to analyze hours of underwater video footage. This model was proven to perform better than a human observer. 
+
+    Our image classification and object identification models can be implemented similarly. With climate change causing rapid decline of biodiversity and more , it is important to perform frequent ecosystem surveys. 
   </p>
   <img src="fishgraph.png" alt="graph">
 </header>
