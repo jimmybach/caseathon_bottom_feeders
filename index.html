@@ -316,8 +316,31 @@ show_predictions(images, labels, preds, idx_to_label)
         <p>We used ChatGPT to aid in writing code. Here is a link to the conversation <a href="...">transcript</a>
 . </p>
       <h3>Code</h3>
-        <code></code>
-        <code></code>
+        <pre><code>
+# This is the entirety of the code we used for object detection
+
+pip install ultralytics
+
+
+from ultralytics import YOLO
+import os
+
+
+#os.chdir('drive/Shareddrives/CaseathonFall2025/ObjectDetectionYOLO/object_detection_dataset')
+# Load a model
+model = YOLO("yolo11x.pt")  # load a pretrained model (recommended for training)
+os.chdir('drive/Shareddrives/CaseathonFall2025/ObjectDetectionYOLO/object_detection_dataset')
+
+
+# Train the model
+results = model.train(data="data.yaml", epochs=100, imgsz=640)
+model.val()
+
+model.tune(epochs=20,resume=True)
+
+model
+</code></pre>
+
       <h3>Results</h3>
 </header>
 
