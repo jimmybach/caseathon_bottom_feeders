@@ -4,7 +4,7 @@ Chris Tillotson, Jimmy Bach, & Whitley Ford
 
 # Image Classification
 > ## Objective & Approach
->
+> Our goal was to train an AI model to identify benthic marine organisms from images. 
 > ## Prompts & Outputs
 >
 > 
@@ -18,7 +18,7 @@ Chris Tillotson, Jimmy Bach, & Whitley Ford
 
 # Object Detection
 > ## Objective & Approach
->
+> Our goal was to train an AI model to locate and identify marine organisms within images. We used a pre-trained model from Ultralytics(https://docs.ultralytics.com/). First, we trained the model for 100 epochs, using the data provided for the case competition. Then, we ran the function, model.tune, to improve accuracy and the base kinetic algorithms to tune model parameters. 
 > 
 > ## Prompts & Outputs
 >
