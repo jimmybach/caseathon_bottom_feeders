@@ -4,7 +4,7 @@ Chris Tillotson, Jimmy Bach, & Whitley Ford
 
 # Image Classification
 > ## Objective & Approach
-> Our goal was to train an AI model to identify benthic marine organisms from images. First, we split the images provided in the 
+> Our goal was to train an AI model to identify benthic marine organisms from images. First, we split the images and labels provided in the competition data into a testing set and a training set. 
 > ## Prompts & Outputs
 > We used ChatGPT to aid in writing code. Here is a link to the conversation [transcript](insert link here). 
 > ## Code
